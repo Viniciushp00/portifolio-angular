@@ -24,85 +24,29 @@ export class ProjectsComponent {
   public arrayProjects = signal<IProjects[]> ([
     {
       src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
+      alt: 'Projeto Sistema de Vendas',
+      title: 'Sistema de Vendas - ASP.Net MVC',
       with: '100px',
       height: '51px',
-      description: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid accusantium asperiores officia rerum laudantium, quasi adipisci ut perspiciatis eos vitae doloribus modi vero quis sapiente earum blanditiis illo ducimus.</p>',
+      description: '<p>Sistema de vendas construido utilizando ASP.Net MVC e Entity Framework. Projeto foi construido junto ao professor Nelio Alves, com o intuito de aplicar o conteúdo aprendido no decorrer do curso.</p>',
       links: [
         {
-          name: 'Conheça o blog',
-          href: 'https://tracker.gg/valorant/profile/riot/i%20die%20for%20her%23BR01/matches'
+          name: 'Código do Projeto',
+          href: 'https://github.com/Viniciushp00/VendasWebMvc/'
         }
       ]
     },
     {
       src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Xadrez',
+      alt: 'Projeto Xadrez no Console',
+      title: 'Xadrez no Console - C#',
       with: '100px',
       height: '51px',
-      description: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid accusantium asperiores officia rerum laudantium, quasi adipisci ut perspiciatis eos vitae doloribus modi vero quis sapiente earum blanditiis illo ducimus.</p>',
+      description: '<p>Jogo de Xadrez que desenvolvi junto ao Professor Nelio Alves, no curso de Programação Orientada a Objeto (POO). A proposta principal é aplicar o conteúdo aprendido no decorrer do curso para criar um jogo de Xadrez que rodasse no console.</p>',
       links: [
         {
-          name: 'Conheça o blog',
-          href: 'https://tracker.gg/valorant/profile/riot/i%20die%20for%20her%23BR01/matches'
-        }
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
-      with: '100px',
-      height: '51px',
-      description: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid accusantium asperiores officia rerum laudantium, quasi adipisci ut perspiciatis eos vitae doloribus modi vero quis sapiente earum blanditiis illo ducimus.</p>',
-      links: [
-        {
-          name: 'Conheça o blog',
-          href: 'https://tracker.gg/valorant/profile/riot/i%20die%20for%20her%23BR01/matches'
-        }
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
-      with: '100px',
-      height: '51px',
-      description: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid accusantium asperiores officia rerum laudantium, quasi adipisci ut perspiciatis eos vitae doloribus modi vero quis sapiente earum blanditiis illo ducimus.</p>',
-      links: [
-        {
-          name: 'Conheça o blog',
-          href: 'https://tracker.gg/valorant/profile/riot/i%20die%20for%20her%23BR01/matches'
-        }
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
-      with: '100px',
-      height: '51px',
-      description: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid accusantium asperiores officia rerum laudantium, quasi adipisci ut perspiciatis eos vitae doloribus modi vero quis sapiente earum blanditiis illo ducimus.</p>',
-      links: [
-        {
-          name: 'Conheça o blog',
-          href: 'https://tracker.gg/valorant/profile/riot/i%20die%20for%20her%23BR01/matches'
-        }
-      ]
-    },
-    {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
-      with: '100px',
-      height: '51px',
-      description: '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid accusantium asperiores officia rerum laudantium, quasi adipisci ut perspiciatis eos vitae doloribus modi vero quis sapiente earum blanditiis illo ducimus.</p>',
-      links: [
-        {
-          name: 'Conheça o blog',
-          href: 'https://tracker.gg/valorant/profile/riot/i%20die%20for%20her%23BR01/matches'
+          name: 'Código do Projeto',
+          href: 'https://github.com/Viniciushp00/Xadrez-em-CSharp'
         }
       ]
     }
